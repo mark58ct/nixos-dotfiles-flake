@@ -16,8 +16,10 @@ in
   # programs.git.enable = true;
   programs.git = {
     enable = true;
-    userName = "mark58ct";
-     userEmail = "mark58ct@gmail.com";
+    settings = {
+    user.name = "mark58ct";
+     user.email = "mark58ct@gmail.com";
+     };
   };
 
   home.stateVersion = "25.11";
