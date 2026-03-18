@@ -22,6 +22,12 @@ in
      };
   };
 
+
+home.sessionVariables = {
+  FLAKE = "/home/me/nixos-dotfiles";
+};
+ 
+
   home.stateVersion = "25.11";
   programs.bash = {
     enable = true;
@@ -51,4 +57,6 @@ in
     rofi
     bat
   ];
+
+ 
 }

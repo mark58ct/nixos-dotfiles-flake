@@ -49,8 +49,8 @@
     autoRepeatDelay = 200;
     autoRepeatInterval = 35;
     windowManager.qtile.enable = true;
-
   };
+
   services.displayManager.ly.enable = true;
 
   # Configure keymap in X11
@@ -81,6 +81,7 @@
   };
 
   programs.firefox.enable = true;
+  nixpkgs.config.allowUnfree = true ;
 
   # List packages installed in system profile.
   # You can use https://search.nixos.org/ to find more packages (and options).
@@ -95,7 +96,13 @@
     fastfetch
     bottom
     imv
+    psmisc
+    nh
+    nix-output-monitor
+    nvd
+    google-chrome
   ];
+
 
   fonts.packages = with pkgs; [
     nerd-fonts.jetbrains-mono
