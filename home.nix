@@ -50,13 +50,7 @@ home.sessionVariables = {
     neovim
     ripgrep
     nil
-    nixpkgs-fmt
-    nodejs
-    gcc
-    pcmanfm
-    rofi
-    bat
-  ];
+     ];
 
  
 }

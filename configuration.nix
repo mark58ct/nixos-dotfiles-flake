@@ -101,6 +101,12 @@
     nix-output-monitor
     nvd
     google-chrome
+    file
+    gcc
+    pcmanfm
+    rofi
+    bat
+    nixpkgs-fmt
   ];
 
 
